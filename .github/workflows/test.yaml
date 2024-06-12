@@ -1,0 +1,14 @@
+name: Checks
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  print-message:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Print message
+      run: echo "anupamas0xq"
