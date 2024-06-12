@@ -3,6 +3,7 @@ name: Checks
 on:
   pull_request:
     branches:
+      - develop
       - main
 
 jobs:
@@ -11,4 +12,4 @@ jobs:
 
     steps:
     - name: Print message
-      run: echo "anupamas0xq1"
+      run: echo "anupamas0xq"
